@@ -53,7 +53,7 @@ export default function Success() {
             <p>{code}</p>
           </div>
 
-          <button onClick={() => Navigate('/home')}>Voltar para Home</button>
+          <button onClick={() => Navigate('/')}>Voltar para Home</button>
         </Details>
       </Body>
     </>

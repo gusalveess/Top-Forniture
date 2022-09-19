@@ -12,7 +12,7 @@ export default function Header() {
           <img src="https://cdn-icons-png.flaticon.com/512/2361/2361657.png" />
         </div>
         <div>
-          <ion-icon onClick={() => Navigate('/home')} name="home-outline"></ion-icon>
+          <ion-icon onClick={() => Navigate('/')} name="home-outline"></ion-icon>
           <ion-icon  onClick={() => Navigate('/cart')} name="cart-outline"></ion-icon>
           <ion-icon  onClick={() => Navigate('sign-up')}name="person-circle-outline"></ion-icon>
         </div>
